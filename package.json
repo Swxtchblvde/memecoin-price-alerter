@@ -1,0 +1,12 @@
+{
+  "name": "node-red-memecoin-bot",
+  "version": "1.0.0",
+  "description": "Node-RED Telegram bot for memecoin price alerts",
+  "scripts": {
+    "start": "node-red -s ./settings.js"
+  },
+  "dependencies": {
+    "node-red": "latest",
+    "node-red-contrib-telegrambot": "latest"
+  }
+}
